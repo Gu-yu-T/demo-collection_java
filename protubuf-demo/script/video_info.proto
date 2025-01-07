@@ -1,0 +1,7 @@
+syntax="proto3";
+
+message VideoFeature {
+  optional  int32 author_gender=1;
+  optional int64  channel_id=2;
+  optional string author_name=3;
+}
