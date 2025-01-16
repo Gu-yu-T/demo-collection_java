@@ -1,4 +1,4 @@
-package com.guyu.vertx;
+package com.guyu.vertx.vertx;
 
 
 import io.vertx.core.Vertx;
