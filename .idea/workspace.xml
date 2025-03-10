@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="添加说明">
-      <change afterPath="$PROJECT_DIR$/base64-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base64-demo/src/main/java/base64/EncodeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caffeine-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/caffeine-demo/src/main/java/com/guyu/caffeine/CaffeineDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/pojo/VertxMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/EmitterProcessorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MainVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MqttServerDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +177,7 @@
       <workItem from="1741221469450" duration="3316000" />
       <workItem from="1741317791742" duration="2457000" />
       <workItem from="1741326343904" duration="2670000" />
-      <workItem from="1741567248066" duration="597000" />
+      <workItem from="1741567248066" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交代码">
       <created>1736243782917</created>
@@ -212,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737018837438</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="主要添加vertx 和 响应式流的demo">
+      <created>1741568966470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741568966470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +242,7 @@
     <MESSAGE value="测试提交代码" />
     <MESSAGE value="使用vertx+ reactor" />
     <MESSAGE value="添加说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加说明" />
+    <MESSAGE value="主要添加vertx 和 响应式流的demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="主要添加vertx 和 响应式流的demo" />
   </component>
 </project>
