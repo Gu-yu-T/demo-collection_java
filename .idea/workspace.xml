@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="">
+    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="添加说明">
+      <change afterPath="$PROJECT_DIR$/base64-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base64-demo/src/main/java/base64/EncodeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caffeine-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caffeine-demo/src/main/java/com/guyu/caffeine/CaffeineDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/pojo/VertxMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/EmitterProcessorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MainVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MqttServerDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +38,22 @@
     <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2rID3lOLW57jM5SUdpdg0zsvtuc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12853467" />
     <property name="project.structure.side.proportion" value="0.1477105" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -56,9 +84,9 @@
       <recent name="D:\JAVA_DEMO\demo-collection\protubuf-demo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MqttServerDemo">
-    <configuration name="EmitterProcessorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.reactor.EmitterProcessorExample" />
+  <component name="RunManager" selected="Application.PublishAndMap">
+    <configuration name="BaseSubscribeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.reactor.BaseSubscribeDemo" />
       <module name="vertx-demo" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.vertx.MainVerticle" />
+    <configuration name="ErrorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.reactor.ErrorDemo" />
       <module name="vertx-demo" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MqttServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.vertx.MqttServerDemo" />
+    <configuration name="PublishAndMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.reactor.PublishAndMap" />
       <module name="vertx-demo" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.test.Test1" />
-      <module name="protubuf-demo" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guyu.vertx.reactor.demo" />
+      <module name="vertx-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.test.*" />
+          <option name="PATTERN" value="com.guyu.vertx.reactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +137,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="protubuf-demo" />
+    <configuration name="EncodeDemoTest.testEncodeToBase64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base64-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="base64.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <option name="PACKAGE_NAME" value="base64" />
+      <option name="MAIN_CLASS_NAME" value="base64.EncodeDemoTest" />
+      <option name="METHOD_NAME" value="testEncodeToBase64" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MqttServerDemo" />
-        <item itemvalue="Application.EmitterProcessorExample" />
-        <item itemvalue="Application.MainVerticle" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Application.PublishAndMap" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.BaseSubscribeDemo" />
+        <item itemvalue="Application.ErrorDemo" />
+        <item itemvalue="JUnit.EncodeDemoTest.testEncodeToBase64" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +181,15 @@
       <workItem from="1736469468182" duration="835000" />
       <workItem from="1736729123210" duration="595000" />
       <workItem from="1736941731288" duration="618000" />
-      <workItem from="1736987854537" duration="10491000" />
+      <workItem from="1736987854537" duration="11754000" />
+      <workItem from="1737080369553" duration="1037000" />
+      <workItem from="1740972114044" duration="5064000" />
+      <workItem from="1741075704881" duration="3617000" />
+      <workItem from="1741137098607" duration="1177000" />
+      <workItem from="1741221469450" duration="3316000" />
+      <workItem from="1741317791742" duration="2457000" />
+      <workItem from="1741326343904" duration="2670000" />
+      <workItem from="1741567248066" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交代码">
       <created>1736243782917</created>
@@ -166,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737018321170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加说明">
+      <created>1737018837438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737018837438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +223,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -188,6 +246,7 @@
     <MESSAGE value="idea + git" />
     <MESSAGE value="测试提交代码" />
     <MESSAGE value="使用vertx+ reactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用vertx+ reactor" />
+    <MESSAGE value="添加说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加说明" />
   </component>
 </project>

@@ -11,6 +11,8 @@
   <modules>
     <module>protubuf-demo</module>
     <module>vertx-demo</module>
+    <module>caffeine-demo</module>
+    <module>base64-demo</module>
   </modules>
 
   <properties>

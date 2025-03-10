@@ -9,12 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="vertx-demo" />
         <module name="protubuf-demo" />
+        <module name="base64-demo" />
+        <module name="caffeine-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo-collection" target="8" />
-      <module name="protubuf-demo" target="8" />
-      <module name="vertx-demo" target="8" />
+      <module name="base64-demo" target="1.8" />
+      <module name="caffeine-demo" target="1.8" />
+      <module name="demo-collection" target="1.8" />
+      <module name="protubuf-demo" target="1.8" />
+      <module name="vertx-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
