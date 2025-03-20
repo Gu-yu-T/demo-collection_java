@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:D:\JAVA_DEMO\demo-collection\sqlite_demo\identifier.sqlite
+
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 开启 SQL 日志（可选）
