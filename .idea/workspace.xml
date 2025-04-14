@@ -4,62 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="主要添加vertx 和 响应式流的demo">
-      <change afterPath="$PROJECT_DIR$/JsonDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonDemo/src/main/java/com/guyu/json/FastJsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonDemo/src/main/java/com/guyu/pojo/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonDemo/src/main/java/com/guyu/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/BaseSubscribeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/EmitterProcessorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/ErrorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/FluxAndMono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/PublishAndMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/PublishOnDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/src/main/java/com/guyu/SubscribeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactor-demo/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/controller/ChatbotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/select.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/src/main/java/com/guyu/sqlite_demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/src/main/java/com/guyu/sqlite_demo/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/src/main/java/com/guyu/sqlite_demo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/src/main/java/com/guyu/sqlite_demo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="82ad78e8-6642-4814-b1e4-2daad23b725a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JsonDemo/src/main/java/com/guyu/util/StringUtilsTxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/controller/ChatSpringAIDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/pojo/ChatRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/39f53055-aa9d-453c-a886-9388a20d269a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/39f53055-aa9d-453c-a886-9388a20d269a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/pojo/VertxMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/BaseSubscribeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/EmitterProcessorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/ErrorDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/FluxAndMono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/PublishAndMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/PublishOnDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/reactor/SubscribeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MainVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/src/main/java/com/guyu/vertx/vertx/MqttServerDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/pojo/VertxMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/BaseSubscribeDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/BaseSubscribeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/EmitterProcessorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/ErrorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/FluxAndMono.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/PublishAndMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/PublishOnDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/reactor/SubscribeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/vertx/MainVerticle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/target/classes/com/guyu/vertx/vertx/MqttServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vertx-demo/vertx-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/controller/ChatbotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/java/com/guyu/springaidemo/controller/ChatbotController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ai-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ai-demo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12853467" />
     <property name="project.structure.side.proportion" value="0.1477105" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -134,14 +91,24 @@
       <recent name="D:\JAVA_DEMO\demo-collection\sqlite_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAiDemoApplication (2)">
+  <component name="RunManager" selected="Application.StringUtilsTxy">
+    <configuration name="StringUtilsTxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guyu.util.StringUtilsTxy" />
+      <module name="JsonDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guyu.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generated-requests#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" runType="Run single request">
+    <configuration name="generated-requests#13" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="13" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" runType="Run single request">
@@ -169,21 +136,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.generated-requests#4" />
-      <item itemvalue="HTTP Request.generated-requests#6" />
+      <item itemvalue="Application.StringUtilsTxy" />
       <item itemvalue="HTTP Request.generated-requests#7" />
-      <item itemvalue="Spring Boot.SpringAiDemoApplication (2)" />
-      <item itemvalue="Spring Boot.SqliteDemoApplication" />
       <item itemvalue="HTTP Request.generated-requests#8" />
       <item itemvalue="HTTP Request.generated-requests#10" />
+      <item itemvalue="HTTP Request.generated-requests#13" />
+      <item itemvalue="Spring Boot.SpringAiDemoApplication (2)" />
+      <item itemvalue="Spring Boot.SqliteDemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringUtilsTxy" />
+        <item itemvalue="HTTP Request.generated-requests#13" />
         <item itemvalue="HTTP Request.generated-requests#10" />
         <item itemvalue="HTTP Request.generated-requests#8" />
         <item itemvalue="HTTP Request.generated-requests#7" />
-        <item itemvalue="HTTP Request.generated-requests#6" />
-        <item itemvalue="HTTP Request.generated-requests#4" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +185,10 @@
       <workItem from="1741766080181" duration="2393000" />
       <workItem from="1741774481891" duration="335000" />
       <workItem from="1742199977485" duration="12554000" />
-      <workItem from="1742371097827" duration="6083000" />
+      <workItem from="1742371097827" duration="16537000" />
+      <workItem from="1742517573095" duration="624000" />
+      <workItem from="1742520364544" duration="1475000" />
+      <workItem from="1743497408755" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交代码">
       <created>1736243782917</created>
@@ -255,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741576202390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sqlite、springAI、reator、protubuf等等">
+      <created>1742436277328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742436277328</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all">
+      <created>1742436360034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742436360034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +278,9 @@
     <MESSAGE value="使用vertx+ reactor" />
     <MESSAGE value="添加说明" />
     <MESSAGE value="主要添加vertx 和 响应式流的demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="主要添加vertx 和 响应式流的demo" />
+    <MESSAGE value="sqlite、springAI、reator、protubuf等等" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

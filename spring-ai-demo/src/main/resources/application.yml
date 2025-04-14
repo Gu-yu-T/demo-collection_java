@@ -5,5 +5,6 @@ spring:
       base-url: https://api.deepseek.com
       chat:
         options:
-          model: deepseek-chat
+#          model: deepseek-chat
+          model: deepseek-reasoner
 

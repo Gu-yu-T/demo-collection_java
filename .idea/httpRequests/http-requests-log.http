@@ -1,3 +1,9 @@
+GET http://localhost:8080/ai/generate
+
+<> 2025-03-20T140859.200.json
+
+###
+
 GET http://localhost:8080/chat/stream
 
 <> 2025-03-20T084247.200.txt
