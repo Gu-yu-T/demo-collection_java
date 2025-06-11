@@ -1,6 +1,0 @@
-{
-  "timestamp": "2025-03-19T08:23:45.241+00:00",
-  "status": 500,
-  "error": "Internal Server Error",
-  "path": "/chat"
-}

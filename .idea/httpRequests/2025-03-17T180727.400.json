@@ -1,6 +1,0 @@
-{
-  "timestamp": "2025-03-17T10:07:27.146+00:00",
-  "status": 400,
-  "error": "Bad Request",
-  "path": "/user/add"
-}
